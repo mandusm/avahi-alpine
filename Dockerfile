@@ -1,7 +1,7 @@
 FROM alpine:latest
 
-RUN apk update & \
-    apk add avahi
+RUN apk update 
+RUN apk add avahi
 
 #USER "86:86"
 
